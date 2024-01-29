@@ -1,0 +1,17 @@
+spring:
+  security:
+    user:
+      name: user1
+      password: ${SPRING_SECU_PASS}
+
+server:
+  port : 8080
+
+logging:
+  file:
+    path: C:\dev\logs\cvtool
+
+db:
+  server: localhost
+  port: 3306
+  user: root
